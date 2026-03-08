@@ -1,4 +1,4 @@
-# Day009 Story — Analogy Spark Lab
+# Day009 Story — Signal Card Mixer
 
 ## Why
 毎日使う小さな課題を、1ページで即解決できる形にしたかったため。
@@ -12,11 +12,11 @@
 - Day009専用にテーマをseed固定して再生成時の見た目を安定化
 - fun用途に寄せた単機能UIで迷いを減らす
 - 出力をそのまま再利用できるテキスト構造
-- Family: analogy_generator
-- Mechanic: metaphor_mapping
-- Input/Output: concept_phrase -> analogy_set
-- Audience Promise: better_explanations
-- Publish Hook: 説明しづらい概念を比喩で翻訳
+- Family: idea_cards
+- Mechanic: random_recombination
+- Input/Output: multi_select_tokens -> card_stack
+- Audience Promise: faster_idea_divergence
+- Publish Hook: デッキを引くだけで試作テーマが決まる
 - Complexity Tier: small
 - Selected components: none
 - Complexity hint: Keep the tool single-purpose and stable. Add at most one safe enhancement component.
@@ -31,5 +31,5 @@
 - エクスポート形式拡張
 
 ## Social copy
-Day009｜Analogy Spark Lab
-難しい話題を比喩で伝えやすくする発想支援ツール。（話題:HN Frontpage）
+Day009｜Signal Card Mixer
+カードの組み合わせから次の試作案を素早く作るデッキ型ツール。（話題:HN Frontpage）

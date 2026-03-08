@@ -1,29 +1,29 @@
-# Day009 — Analogy Spark Lab
+# Day009 — Signal Card Mixer
 
-> 難しい話題を比喩で伝えやすくする発想支援ツール。（話題:HN Frontpage）
+> カードの組み合わせから次の試作案を素早く作るデッキ型ツール。（話題:HN Frontpage）
 >
 > Complexity Tier: small
 >
 > Selected Components: none
 >
-> Family / Mechanic: analogy_generator / metaphor_mapping
+> Family / Mechanic: idea_cards / random_recombination
 >
-> Input -> Output: concept_phrase -> analogy_set
+> Input -> Output: multi_select_tokens -> card_stack
 >
-> Audience Promise: better_explanations
+> Audience Promise: faster_idea_divergence
 
 ## 使い方
 
 1. ページを開く
-2. 説明したい概念を入力する
-3. 「実行する」を実行する
-4. 比喩セットを確認して必要に応じて再入力する
+2. 素材トークンを入力する
+3. 「カードを引く」を実行する
+4. カードスタックを確認して必要に応じて再入力する
 
 ## Story
 
 - [制作ストーリー](./STORY.md)
 - Complexity hint: Keep the tool single-purpose and stable. Add at most one safe enhancement component.
-- Publish hook: 説明しづらい概念を比喩で翻訳
+- Publish hook: デッキを引くだけで試作テーマが決まる
 
 ## Demo
 
